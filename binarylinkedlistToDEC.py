@@ -37,20 +37,8 @@ def print_singly_linked_list(node, sep, fptr):
 
 
 
-#
-# Complete the 'getNumber' function below.
-#
-# The function is expected to return a LONG_INTEGER.
-# The function accepts INTEGER_SINGLY_LINKED_LIST binary as parameter.
-#
 
-#
-# For your reference:
-#
-# SinglyLinkedListNode:
-#     int data
-#     SinglyLinkedListNode next
-#
+
 def getNumber(binary: SinglyLinkedListNode) -> int:
     binary_nums = []
     while binary != None: 
